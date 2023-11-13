@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color:grey;
+    width:250px;
+    font-family: 'Oswald', sans-serif;
+    height: 100vw;
+    font-weight: bold;
+    transition: transform  ease-in;
+}
+.sidebar nav{
+    padding: 20px;
+  
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:navy;
+}
+.main{
+    background-color:cadetblue;
+    width: 100vw;
+    height: 305vw;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    display: flex;  
+}
+.infocontainer{
+    flex-direction: column;
+    flex-wrap:wrap;
+    /* display: flex; */
+    background-color:grey;
+    height: 76vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+.devInfo{
+
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+}
+.hello{
+    font-size: 3em;
+
+}
+.about{
+    font-size: 2.5em;
+}
+.name{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.moreabout{
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+}
+.buttons button{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    color: black;
+    font-weight: bold;
+    margin: 0px 2px;
+    cursor: pointer;
+    /* It will make buttons as hiperlink */
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+    /* if someone hover over buttons it will make buttons to change color */
+}
+
+.devpic img{
+    height: 75vh;
+    width: 70vh;
+    border: 5px solid navy;
+}
+.formContainer{
+    background-color:grey;
+    height: 76vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.blogContainer{
+    background-color:grey;
+    height: 76vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.blogItem{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.blogContainer h1{
+    text-align: center;
+}
+.introContainer{
+    background-color:grey;
+    height: 160vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.intro h1,h2{
+    text-align: center;
+}
+.intro h3{
+    margin-left: 10px;
+}
+.sidebarGo{
+    transform: translate(-443px,0);
+    position: absolute;
+  }
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+
+@media (max-width: 1080px) {
+  *{
+    /* background-color: red; */
+  }
+  .devpic{
+    display: none;
+}
+  
+  }
+
+
+
+
